@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Binary installers
+*.exe
+*.msi
+*.msix
+*.zip
+!assets/*.zip
+
+# Build outputs
+dist/
+build/
+node_modules/
